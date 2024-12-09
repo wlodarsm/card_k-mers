@@ -1,1 +1,7 @@
 CARD k-mers documentation: https://github.com/arpcard/rgi/blob/master/docs/rgi_kmer.rst
+
+classification validation fasta files:
+card-r.fasta #full card-r.fasta
+training.fasta #custom database for card k-mers, kraken2 (CARD)
+testing.fasta #validation sequences for card k-mers, kraken2, kraken2 (CARD), CLARK
+genomic.fasta #validation sequences for card k-mers
