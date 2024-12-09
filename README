@@ -1,7 +1,16 @@
 CARD k-mers documentation: https://github.com/arpcard/rgi/blob/master/docs/rgi_kmer.rst
 
-classification validation fasta files:
+validation fasta files:
 card-r.fasta #full card-r.fasta
 training.fasta #custom database for card k-mers, kraken2 (CARD)
-testing.fasta #validation sequences for card k-mers, kraken2, kraken2 (CARD), CLARK
+testing.fasta #validation sequences for card k-mers, kraken2, kraken2 (CARD), CLARK, KISTUNE pathogen k-mer size
 genomic.fasta #validation sequences for card k-mers
+plasmid.fasta #KITSUNE plasmid k-mer size
+
+UMAP files:
+unclassified_table.csv #data table of all unclassified amr alleles during pathogen classification
+gene_species_vectorized.csv #vectorized data betweens unclassfied amr alleles and which pathogens they associated
+umap_unclassified_amr_alleles.html #umap visualization file
+
+#performance benchmarking
+first million reads taken from simulated metagenome: simulated_metagenome_1.fq.gz : https://zenodo.org/records/654335720
